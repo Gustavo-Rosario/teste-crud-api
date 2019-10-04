@@ -2,7 +2,6 @@
 Teste CRUD (NodeJS)
 
 ## CRUD de Clientes
-----
 ### 1. Escopo
 Crie uma mini api, em NodeJS, que faça conexão com uma base **MONGODB** para gerenciamento de clientes genéricos.
 
