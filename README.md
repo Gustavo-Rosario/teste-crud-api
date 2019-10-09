@@ -30,3 +30,13 @@ Especial     | Boolean | TRUE ou FALSE
 * Crie uma branch com seu nome a partir de **master** para fazer suas modificações
   * Exemplo: **fulano/crud-api**
 * Use a conexão com a base no **MONGODB** (informações de conexão serão passadas internamente)
+  * Crie uma collection com o **seu nome** para armazenar os clientes
+  * Utilize a biblioteca **mongoose** (<https://www.npmjs.com/package/mongoose>) para realizar a conexão com o banco
+  
+### 4. Boas praticas
+* Separar um arquivo para configirações do projeto, como strings de conexão, porta da aplicação, etc...
+  * Exemplo: config.json
+* Separação de rotas e funções
+* Pasta com os Schemas do banco de dados
+* Arquivo **.gitignore** para remover arquivos e pastas privadas ou desnecessárias
+  * Exemplo: node_modules
